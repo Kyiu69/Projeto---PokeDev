@@ -1,0 +1,69 @@
+@media(max-width: 750px) {
+    .Lockcats {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Lockcats span {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .cartao-lock {
+        max-width: 350px;
+    }
+
+    .cartao-lock .cartao-informacoes{
+        padding: 60px 30px 30px;
+        margin-top: -55px;
+    }
+
+    .cartao-lock .cartao-informacoes h3{
+        font-size: 20px;
+    }
+
+
+
+    .listagem .Lockcats {
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+
+    }
+
+    .listagem ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+
+    }
+
+    .tipo-driblador {
+        background-size: 162%;
+        background-position-x: 20%;
+       
+    }    
+    .tipo-matador {
+        background-image: url(../img/Barou.gif);
+        background-size: 161%;
+        background-position-x: 80%;
+
+    }
+    .tipo-Magico {
+        background-image: url(../img/Agi.gif);
+        background-size: 161%;
+        background-position-x: 59%;
+       
+    }
+    .tipo-Gênio {
+        background-image: url(../img/882818659ff02a335e6410dbcc07a52a.gif);
+        background-size: 175%;
+        background-position-x: 57%;
+      }
+      
+
+}
